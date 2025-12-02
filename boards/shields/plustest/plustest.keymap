@@ -1,0 +1,68 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+
+&lt {
+    tapping-term-ms = <200>; // This is the value already set by default
+};
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            display-name = "Base";
+            bindings = <
+&kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp BSPC
+&kp Q       &kp W       &kp E       &kp R       &kp T       &kp LBKT
+&kp A       &kp S       &kp D       &kp F       &kp G       &kp ENTER
+&kp Z       &kp X       &kp C       &kp V       &kp B       &kp N0
+&lt 1 DEL   &kp LGUI    &mt LALT INT_MUHENKAN   &lt 2 SPACE &kp DEL
+            >;
+        };
+
+        layer_1 {
+            display-name = "Layer1";
+            bindings = <
+&kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp BSPC
+&kp Q       &kp W       &kp E       &kp R       &kp T       &kp LBKT
+&kp A       &kp S       &kp D       &kp F       &kp G       &kp ENTER
+&kp Z       &kp X       &kp C       &kp V       &kp B       &kp N0
+&lt 1 DEL   &kp LGUI    &mt LALT INT_MUHENKAN   &lt 2 SPACE &kp DEL
+            >;
+        };
+
+        layer_2 {
+            display-name = "Layer2";
+            bindings = <
+&kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp BSPC
+&kp Q       &kp W       &kp E       &kp R       &kp T       &kp LBKT
+&kp A       &kp S       &kp D       &kp F       &kp G       &kp ENTER
+&kp Z       &kp X       &kp C       &kp V       &kp B       &kp N0
+&lt 1 DEL   &kp LGUI    &mt LALT INT_MUHENKAN   &lt 2 SPACE &kp DEL
+            >;
+        };
+
+        layer_3 {
+            display-name = "Layer3";
+            bindings = <
+&kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp BSPC
+&kp Q       &kp W       &kp E       &kp R       &kp T       &kp LBKT
+&kp A       &kp S       &kp D       &kp F       &kp G       &kp ENTER
+&kp Z       &kp X       &kp C       &kp V       &kp B       &kp N0
+&lt 1 DEL   &kp LGUI    &mt LALT INT_MUHENKAN   &lt 2 SPACE &kp DEL
+            >;
+        };
+
+        layer_4 {
+            display-name = "BT_Layer";
+            bindings = <
+&none           &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3           
+&bt BT_PRV      &bt BT_NXT      &none           &bt BT_CLR      &bt BT_CLR_ALL
+&none           &none           &none           &none           &none
+&none           &none           &none           &none           &none
+&none           &none           &none           &none           &none
+            >;
+        };
+    };
+};

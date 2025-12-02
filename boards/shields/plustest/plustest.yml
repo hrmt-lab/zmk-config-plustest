@@ -1,0 +1,11 @@
+file_format: "1"
+id: plustest
+name: plustest
+type: shield
+url: https://github.com/hrmt-lab/zmk-config-plustest
+requires: [seeeduino_xiao_ble]
+
+features:
+  - keys
+siblings:
+  - plustest
