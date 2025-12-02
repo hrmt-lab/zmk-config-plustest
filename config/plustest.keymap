@@ -13,10 +13,10 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp BSPC
-&kp Q       &kp W       &kp E       &kp R       &kp T       &kp LBKT
-&kp A       &kp S       &kp D       &kp F       &kp G       &kp ENTER
-&kp Z       &kp X       &kp C       &kp V       &kp B       &kp N0
+&kp N1      &kp N2      &kp N3      &kp N4      &kp N5      
+&kp Q       &kp W       &kp E       &kp R       &kp T       
+&kp A       &kp S       &kp D       &kp F       &kp G       
+&kp Z       &kp X       &kp C       &kp V       &kp B       
 &lt 1 DEL   &kp LGUI    &mt LALT INT_MUHENKAN   &lt 2 SPACE &kp DEL
             >;
         };
@@ -24,10 +24,10 @@
         layer_1 {
             display-name = "Layer1";
             bindings = <
-&kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp BSPC
-&kp Q       &kp W       &kp E       &kp R       &kp T       &kp LBKT
-&kp A       &kp S       &kp D       &kp F       &kp G       &kp ENTER
-&kp Z       &kp X       &kp C       &kp V       &kp B       &kp N0
+&kp N1      &kp N2      &kp N3      &kp N4      &kp N5      
+&kp Q       &kp W       &kp E       &kp R       &kp T       
+&kp A       &kp S       &kp D       &kp F       &kp G       
+&kp Z       &kp X       &kp C       &kp V       &kp B       
 &lt 1 DEL   &kp LGUI    &mt LALT INT_MUHENKAN   &lt 2 SPACE &kp DEL
             >;
         };
@@ -35,10 +35,10 @@
         layer_2 {
             display-name = "Layer2";
             bindings = <
-&kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp BSPC
-&kp Q       &kp W       &kp E       &kp R       &kp T       &kp LBKT
-&kp A       &kp S       &kp D       &kp F       &kp G       &kp ENTER
-&kp Z       &kp X       &kp C       &kp V       &kp B       &kp N0
+&kp N1      &kp N2      &kp N3      &kp N4      &kp N5      
+&kp Q       &kp W       &kp E       &kp R       &kp T       
+&kp A       &kp S       &kp D       &kp F       &kp G       
+&kp Z       &kp X       &kp C       &kp V       &kp B       
 &lt 1 DEL   &kp LGUI    &mt LALT INT_MUHENKAN   &lt 2 SPACE &kp DEL
             >;
         };
@@ -46,10 +46,10 @@
         layer_3 {
             display-name = "Layer3";
             bindings = <
-&kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp BSPC
-&kp Q       &kp W       &kp E       &kp R       &kp T       &kp LBKT
-&kp A       &kp S       &kp D       &kp F       &kp G       &kp ENTER
-&kp Z       &kp X       &kp C       &kp V       &kp B       &kp N0
+&kp N1      &kp N2      &kp N3      &kp N4      &kp N5      
+&kp Q       &kp W       &kp E       &kp R       &kp T       
+&kp A       &kp S       &kp D       &kp F       &kp G       
+&kp Z       &kp X       &kp C       &kp V       &kp B       
 &lt 1 DEL   &kp LGUI    &mt LALT INT_MUHENKAN   &lt 2 SPACE &kp DEL
             >;
         };
