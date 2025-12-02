@@ -1,3 +1,4 @@
 if SHIELD_PLUSTEST
 config ZMK_KEYBOARD_NAME
     default "plustest"
+endif
