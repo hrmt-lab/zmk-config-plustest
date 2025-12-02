@@ -1,4 +1,8 @@
 if SHIELD_PLUSTEST
 config ZMK_KEYBOARD_NAME
     default "plustest"
+
+config NFCT_PINS_AS_GPIOS
+    default y
+    
 endif
