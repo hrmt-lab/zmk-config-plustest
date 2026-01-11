@@ -1,6 +1,4 @@
 manifest:
-  defaults:
-    revision: v0.3
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
@@ -15,5 +13,6 @@ manifest:
       import: app/west.yml
     - name: zmk-feature-non-lipo-battery-management
       remote: sekigon-gonnoc
+      revision: main
   self:
     path: config
